@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Document</title>
+<style>
+body{
+	margin:0;
+}
+.nav_div{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #fff;
+	top: 0;
+	background-color: #333;
+	position: fixed;
+}
+.nav_div .cw_span {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 12px;
+    position: absolute;
+}
+.nav_div .item_div{
+	width: 33%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.nav_div .index_div{
+	margin-top:10px;
+}
+.nav_div .sys_fun_div{
+	margin-top:-30px;
+	margin-left:33%;
+}
+.nav_div .contact_us_div{
+	margin-top:-30px;
+	margin-left:66%;
+}
+.nav_div .sy_a,
+.nav_div .sys_fun_a,
+.nav_div .contact_us_a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.space1_div {
+    width: 100%;
+    height: 50px;
+}
+.logo_img{
+	width:100%;
+	height:100%;
+}
+
+.step1_div{
+	width:90%;
+	margin:10px auto;
+	padding:1px;
+}
+.step1_div .title_div{
+	height: 60px;
+	line-height: 25px;
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+}
+.step1_div .img_div{
+	width:100%;
+}
+.step1_div .img_div img{
+	width:100%;
+}
+.step1_div .img_div .img1{
+	margin-top:10px;
+}
+
+.foot_div{
+    width: 100%;
+    height: 175px;
+    padding-top: 1px;
+    background-color: #1F232A;
+}
+.foot_div .gsmc_div{
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.foot_div .zxrx_div,.foot_div .yxdz_div{
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.foot_div .gsdz_div{
+	line-height: 20px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.foot_div .qdcqsw_div {
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div class="nav_div">
+	<span class="cw_span" onclick="closeWindow();">&lt;</span>
+	<div class="item_div index_div">
+		<a class="sy_a" href="index.html">首页</a>
+	</div>
+	<div class="item_div sys_fun_div">
+		<a class="sys_fun_a" href="sysFun.html">Batch系统功能</a>
+	</div>
+	<div class="item_div contact_us_div">
+		<a class="contact_us_a" href="contactUs.html">联系我们</a>
+	</div>
+</div>
+
+<div class="space1_div"></div>
+<div class="logoImg_div" id="logoImg_div">
+	<img class="logo_img" src="images/201712161043449020.jpg">
+</div>
+
+<div class="step1_div">
+	<div class="title_div">第一步：工单下达，通过MES系统获取工单信息</div>
+	<div class="img_div">
+		<img src="images/202305101759.png">
+		<img class="img1" src="images/202305101805.png"/>
+	</div>
+</div>
+<div class="step1_div">
+	<div class="title_div">第二步：配方运行管理画面，可执行配方选择</div>
+	<div class="img_div">
+		<img src="images/202305101817.png">
+		<img class="img1" src="images/202305101806.png"/>
+	</div>
+</div>
+<div class="step1_div">
+	<div class="title_div">第三步：对于超限参数进行电子签名处理</div>
+	<div class="img_div">
+		<img src="images/202305101807.png">
+		<img class="img1" src="images/202305101808.png"/>
+	</div>
+</div>
+<div class="step1_div">
+	<div class="title_div">第四步：配方执行完毕后自动生成电子批记录</div>
+	<div class="img_div">
+		<img src="images/202305101809.png">
+		<img class="img1" src="images/202305101810.png"/>
+	</div>
+</div>
+<div class="step1_div">
+	<div class="title_div">第五步：配方执行完毕自动生成过程参数批次报表</div>
+	<div class="img_div">
+		<img src="images/202305101811.png">
+		<img class="img1" src="images/202305101812.png"/>
+	</div>
+</div>
+
+<div class="foot_div">
+	<div class="gsmc_div">公司名称：青岛华凌科技有限公司</div>
+	<div class="zxrx_div">咨询热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+	<div class="yxdz_div">邮箱地址：qdhualing@126.com</div>
+	<div class="gsdz_div">公司地址：青岛市北中央商务区卓越世纪中心19F</div>
+	<div class="qdcqsw_div">青岛华凌科技有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#fff;text-decoration:none;">鲁ICP备19062226号-4</a></div>
+</div>
+</body>
+</html>

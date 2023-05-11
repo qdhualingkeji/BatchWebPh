@@ -149,7 +149,7 @@ body{
 
 .foot_div{
     width: 100%;
-    height: 180px;
+    height: 175px;
     padding-top: 1px;
     background-color: #1F232A;
 }
@@ -192,10 +192,10 @@ body{
 		<a class="sy_a" href="index.html">首页</a>
 	</div>
 	<div class="item_div sys_fun_div">
-		<a class="sys_fun_a" href="dangerTrade.html">Batch系统功能</a>
+		<a class="sys_fun_a" href="sysFun.html">Batch系统功能</a>
 	</div>
 	<div class="item_div contact_us_div">
-		<a class="contact_us_a" href="productShow.html">联系我们</a>
+		<a class="contact_us_a" href="contactUs.html">联系我们</a>
 	</div>
 </div>
 <div class="space1_div"></div>
