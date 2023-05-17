@@ -18,18 +18,19 @@ function closeWindow(){
 <title>Batch首页</title>
 <style>
 body{
+	width: 99%;
 	margin:0;
 }
 .nav_div{
 	width: 100%;
 	height: 50px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #d2d2d2;
 	top: 0;
-	background-color: #333;
+	background-color: #fff;
 	position: fixed;
 }
 .nav_div .cw_span {
-    color: #fff;
+    color: #333;
     font-size: 12px;
     margin-top: 20px;
     margin-left: 12px;
@@ -52,10 +53,13 @@ body{
 	margin-top:-30px;
 	margin-left:66%;
 }
-.nav_div .sy_a,
+.nav_div .sy_a{
+	color:#04be89;
+	text-decoration: none;
+}
 .nav_div .sys_fun_a,
 .nav_div .contact_us_a{
-	color:#fff;
+	color:#333;
 	text-decoration: none;
 }
 
@@ -63,18 +67,13 @@ body{
     width: 100%;
     height: 50px;
 }
-.logo_img{
-	width:100%;
-	height:100%;
-}
 
 .comp_intr_div{
 	width:100%;
-	margin:0 auto;
+	margin:10px auto;
 	padding:1px;
 }
-.comp_intr_div .title_div,
-.batch_intr_div .title_div{
+.comp_intr_div .title_div{
 	height: 30px;
 	line-height: 30px;
 	color: #333;
@@ -90,12 +89,13 @@ body{
 }
 
 .honor_div{
-	width:265px;
-	margin: 20px auto;
+	width:100%;
+	background:#F2F2F2;
 	padding: 1px;
 }
 .zs_list_div{
-	width:100%;
+	width:265px;
+	margin: 20px auto;
 }
 .zs_list_div .item_div{
 	width:265px;
@@ -113,25 +113,31 @@ body{
 	margin-top:15px;
 }
 
+.batch_intr_div{
+	width:100%;
+	margin-top:20px;
+}
+.batch_intr_div .title_div{
+	height: 30px;
+	line-height: 30px;
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
 .batch_intr_div .area1_div,
-.batch_intr_div .area2_div,
 .batch_intr_div .area3_div{
-	width:90%;
-	margin:0 auto;
-}
-.batch_intr_div .area1_div .img_div,
-.batch_intr_div .area2_div .img_div,
-.batch_intr_div .area3_div .img_div{
 	width:100%;
 }
-.batch_intr_div .area1_div .img_div img,
-.batch_intr_div .area2_div .img_div img,
-.batch_intr_div .area3_div .img_div img{
+.batch_intr_div .area2_div{
 	width:100%;
+	background:#F2F2F2;
+	padding: 1px;
 }
 .batch_intr_div .area1_div .content_div,
 .batch_intr_div .area2_div .content_div,
 .batch_intr_div .area3_div .content_div{
+	width:90%;
 	margin: 5px 20px 0px;
 }
 .batch_intr_div .area1_div .content_div p,
@@ -207,9 +213,6 @@ body{
 	</div>
 </div>
 <div class="space1_div"></div>
-<div class="logoImg_div" id="logoImg_div">
-	<img class="logo_img" src="images/201712161043449020.jpg">
-</div>
 <div class="comp_intr_div">
 	<div class="title_div">公司简介</div>
 	<p class="content_p">青岛华凌科技有限公司致力于打造智能化制造系统。致力于运用工业物联网、大数据分析，无线以及工业底层互联等新技术，建立企业的工业智能化信息管理平台。现有产品系列有BATCH系统、智能分析与追溯、无人值守智能称重、企业人员安全定位等。</p>
@@ -230,9 +233,6 @@ body{
 <div class="batch_intr_div">
 	<div class="title_div">BATCH系统简介</div>
 	<div class="area1_div">
-		<div class="img_div">
-			<img src="images/202305101327.png">
-		</div>
 		<div class="content_div">
 			<p>Batch系统允许在处理过程中使用同一套控制和信息系统，从而提升产能和产品质量，节约能源和原材料，并减少流程偏差和人员介入。</p>
 			<p>在加速产品和过程开发时采取灵活的生产能力并对公司工序进行标准化，支持用户开发现代批次控制策略。最终的成效是设备利用率得到提升，产品质量有所改善，充分满足可操作性数据的可见性和访问需求，同时降低了成本。</p>
@@ -245,9 +245,6 @@ body{
 		</div>
 	</div>
 	<div class="area2_div">
-		<div class="img_div">
-			<img src="images/202305101653.png">
-		</div>
 		<div class="content_div">
 			<p class="p1">Batch 满足系统集成商、成套设备供应商和最终用户的多元化设计和生产需求，并提供允许其加以控制的技术。</p>
 			<p class="p1">华凌BATCH系统使用基于 ANSI/ISA-88 的功能，配方和生产过程可独立于过程设备进行开发。用户可轻松更改配方参数、添加新批次或定义批次所用设备，无需更改工程或自动化系统或重新验证。</p>
@@ -260,9 +257,6 @@ body{
 		</div>
 	</div>
 	<div class="area3_div">
-		<div class="img_div">
-			<img src="images/202305101705.png">
-		</div>
 		<div class="content_div">
 			<p class="p1">定义配方和工序模块</p>
 			<p class="p2">利用批次配方编辑器编辑过程配方，有助于构建定义了设备操作顺序的过程配方。批次配方编辑器采用简易方式配置、组织及存储配方信息。在批次设备编辑器中，配方按层级构建，其中包含过程工序、单元操作、及操作所包含的阶段。配方同样包括制作批次的描述性信息、公式信息、设备要求和工序。此外，可在配方结构中添加设计和运行时均可查看的配方结构。</p>
